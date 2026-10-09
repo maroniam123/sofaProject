@@ -1,0 +1,119 @@
+:root {
+    --font-family: "Inter", sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #35736E;
+    padding: 24px 0;
+}
+
+.headerBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logoDot {
+    color: rgba(255, 255, 255, 0.28);
+}
+
+.activeLink {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+}
+
+.activeLink::after {
+    content: "";
+    height: 5px;
+    width: 100%;
+    background-color: #f9bf29;
+    margin-top: 7px;
+    display: block;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+.navLink {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+/* ---------------------------------------------- */
+
+.btnShopNow {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: #2f2f2f;
+    background-color: #F9BF29;
+    border-radius: 30px;
+    border: none;
+    padding: 11px 35px;
+}
+
+.btnExplore {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.29);
+    border-radius: 30px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 11px 37px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 14px;
+}
+
+.horizontalBox {
+    display: flex;
+    margin-top: 154px;
+}
+
+.horizontalLeft>h1 {
+    margin-bottom: 117px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 54px;
+    color: #fff;
+    max-width: 419px;
+}
+
+.horizontalRight {
+    position: relative;
+    z-index: 1;
+}
+
+.dotted {
+    position: absolute;
+    top: 0;
+    right: -93px;
+    z-index: -1;
+}
