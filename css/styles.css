@@ -117,3 +117,71 @@
     right: -93px;
     z-index: -1;
 }
+
+/* -------------------------------------------- */
+
+.boxProducts {
+    display: flex;
+}
+
+.informationExplore {
+    border: none;
+    border-radius: 30px;
+    background: #2f2f2f;
+    padding: 11px 32px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: #fff;
+}
+
+.informationProduct {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.informationProduct>h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 34px;
+    color: #2f2f2f;
+    max-width: 205px;
+
+}
+
+.informationProduct>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #6a6a6a;
+    max-width: 218px;
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: flex;
+    gap: 79px;
+    margin-left: 114px;
+}
+
+.card>h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #2f2f2f;
+}
+
+.card>p {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 133%;
+    text-align: center;
+    color: #2f2f2f;
+}
