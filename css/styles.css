@@ -185,3 +185,75 @@
     text-align: center;
     color: #2f2f2f;
 }
+
+/* -------------------------------------------- */
+
+.whyWeBox {
+    display: flex;
+    gap: 124px;
+    margin-top: 230px;
+}
+
+.whyChooseUs {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.whyChooseUs>h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 121%;
+    color: #2f2f2f;
+}
+
+.whyChooseUs>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #6a6a6a;
+    max-width: 444px;
+}
+
+.whyChooseUsArguments {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 42px;
+    margin-top: 88px;
+}
+
+.cardWhyWe>h3 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 157%;
+    color: #2f2f2f;
+}
+
+.cardWhyWe>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #6a6a6a;
+    max-width: 216px;
+}
+
+.whyWeImages {
+    position: relative;
+}
+
+.mainImgWhyWe {
+    position: absolute;
+    z-index: 1;
+}
+
+.dotImgWhyWe {
+    position: absolute;
+    z-index: -1;
+    top: -53px;
+    left: -90px;
+}
