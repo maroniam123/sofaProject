@@ -135,6 +135,7 @@
     line-height: 175%;
     text-align: center;
     color: #fff;
+    max-width: 122px;
 }
 
 .informationProduct {
@@ -190,7 +191,7 @@
 
 .whyWeBox {
     display: flex;
-    gap: 124px;
+    gap: 154px;
     margin-top: 230px;
 }
 
@@ -257,3 +258,138 @@
     top: -53px;
     left: -90px;
 }
+
+/* ----------------------------------------- */
+
+.helpBox {
+    display: flex;
+    margin-top: 300px;
+    margin-bottom: 219px;
+}
+
+.helpImages {
+    position: relative;
+    width: 680px;
+}
+
+.helpImg1 {
+    position: absolute;
+    border-radius: 10px;
+    z-index: -20;
+}
+
+.helpImg2 {
+    position: absolute;
+    border-radius: 10px;
+    right: 50px;
+}
+
+.helpImg3 {
+    position: absolute;
+    border-radius: 10px;
+    z-index: 10;
+    top: 210px;
+    right: 50px;
+}
+
+.helDots {
+    position: absolute;
+    border-radius: 10px;
+    z-index: -30;
+    right: 520px;
+    top: -50px;
+}
+
+.helpInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gridList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 41px 24px;
+}
+
+.helpInformation>h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 121%;
+    color: #2f2f2f;
+    max-width: 378px;
+}
+
+.helpInformation>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #6a6a6a;
+    max-width: 444px;
+}
+
+.helpListItem {
+    display: flex;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 136%;
+    color: #6a6a6a;
+    max-width: 194px;
+}
+
+.helpListItem::before {
+    content: "";
+    background-image: url("images/Ellipse 66.png");
+    display: inline-block;
+}
+
+.chairCards {
+    display: flex;
+    gap: 49px;
+}
+
+.chairCard {
+    display: flex;
+    gap: 33px;
+}
+
+.cardInformation {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.cardInformation>h3 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 157%;
+    color: #000;
+}
+
+.cardInformation>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #6a6a6a;
+    max-width: 211px;
+}
+
+.cardInformation>button {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 183%;
+    color: #6a6a6a;
+    background: transparent;
+    border: none;
+    max-width: 63px;
+    padding: 0;
+}
+
+/* ----------------------------------------------- */
