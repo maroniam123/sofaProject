@@ -317,6 +317,15 @@ body {
     gap: 41px 24px;
 }
 
+
+
+.gridList>li>img {
+    margin-right: 13px;
+    margin-top: 5px;
+    max-width: 8px;
+    max-height: 8px;
+}
+
 .helpInformation>h2 {
     font-family: var(--font-family);
     font-weight: 600;
