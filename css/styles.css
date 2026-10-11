@@ -2,7 +2,7 @@
     --font-family: "Inter", sans-serif;
 }
 
-.body {
+body {
     background: #eff2f1;
 }
 
@@ -403,6 +403,7 @@
     flex-direction: column;
     gap: 36px;
     margin-top: 100px;
+    margin-bottom: 157px;
 }
 
 .blogHeader {
@@ -421,7 +422,6 @@
 .blogHeader>button {
     background: transparent;
     border: none;
-    /* text-decoration: underline; */
     font-family: var(--font-family);
     font-weight: 600;
     font-size: 16px;
@@ -464,4 +464,149 @@
 
 .blogCard>img {
     margin-bottom: 44px;
+}
+
+/* ------------------------------------------ */
+.footer {
+    background-color: white;
+}
+
+.subcribe {
+    display: flex;
+    gap: 88px;
+}
+
+.subscribeNewsletter {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 23px;
+    margin-top: 99px;
+}
+
+.subscribeNewsletter>h2 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    color: #2f2f2f;
+}
+
+.subcribeForm>form {
+    display: flex;
+    gap: 15px;
+}
+
+.subcribeForm>form>input {
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    padding: 12px 131px 17px 22px;
+    max-width: 262px;
+}
+
+.subcribeForm>form>button {
+    background: #35736e;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    padding: 10px 11px;
+}
+
+.subcribeForm>form>input::placeholder {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #2f2f2f;
+    max-width: 114px;
+}
+
+.subcribeSofa {
+    position: relative;
+}
+
+.sofaSubcribe {
+    position: absolute;
+    top: -100px;
+}
+
+.someText {
+    margin-top: 138px;
+}
+
+.someText>h2 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 32px;
+    color: #000;
+}
+
+.someText>h2>span {
+    color: #2f2f2f;
+}
+
+.textBox {
+    display: flex;
+    gap: 50px;
+    margin-top: 19px;
+    margin-bottom: 58px;
+}
+
+.justText {
+    max-width: 110px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #6a6a6a;
+}
+
+.mainSomeText {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #6a6a6a;
+    max-width: 360px;
+}
+
+.links {
+    display: flex;
+    gap: 11px;
+    margin-bottom: 32px;
+}
+
+.footerLink {
+    border-radius: 100%;
+    background-color: #d9d9d9;
+    padding: 12px 15px;
+    max-width: 21px;
+    max-height: 21px;
+}
+
+.copirate {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 91px;
+    padding-top: 36px;
+    border-top: 1px solid #eff2f1;
+}
+
+.copirate>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 185%;
+    color: #6a6a6a;
+}
+
+.secondCopirate {
+    display: flex;
+    gap: 42px;
+}
+
+.secondCopirate>p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #6a6a6a;
 }
