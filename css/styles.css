@@ -536,30 +536,37 @@ body {
     top: -100px;
 }
 
-.someText {
+.anotherFooterLinks {
     margin-top: 138px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-bottom: 43px
 }
 
-.someText>h2 {
+.anotherFooterLinks>h2 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 32px;
     color: #000;
 }
 
-.someText>h2>span {
+.anotherFooterLinks>h2>span {
     color: #2f2f2f;
 }
 
-.textBox {
+.mainLinksBox {
     display: flex;
     gap: 50px;
-    margin-top: 19px;
-    margin-bottom: 58px;
 }
 
-.justText {
-    max-width: 110px;
+.linksBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.linksBox>a {
+    text-decoration: none;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 14px;
